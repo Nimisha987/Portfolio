@@ -1,0 +1,53 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.services-title{
+    position: relative;
+
+}
+.services-title h1{
+    padding: 0 30px;
+    font-size: 60px;
+    font-weight: 600;
+
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+   
+}
+.service{
+   
+     border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+    cursor: pointer;
+    padding: 40px;
+}
+.service h3{
+    font-size: 30px;
+    font-weight: 600;
+   background: linear-gradient(270deg, #f2efeb 10%, #1a99ee 106.28%);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.service p{
+    font-size: 22px;
+    line-height: 30px;
+ 
+}
+.service:hover{
+    border: 2px solid #49022f;
+    transform: scale(1.);
+    transition: 0.5s;
+    background-image: linear-gradient(270deg, #535251 10%, #1449ba 100%);
+
+}

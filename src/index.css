@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  height: 550vh;
+  background-image: url('src/assets/background.svg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+  color: white;
+  font-family:'outfit';
+ 
+}
