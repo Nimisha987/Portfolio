@@ -1,13 +1,17 @@
-import "./globals.css";
+import type { Metadata } from "next";
 import type { ReactNode } from "react";
-export const metadata = {
-  title: "Nimisha — Portfolio",
-  description: "Full-stack AI developer building voice, document, and agent pipelines.",
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Nimisha Agrawal | Portfolio",
+  description: "AI/ML Engineer & Full-Stack Developer",
 };
-type RootLayoutProps = {
+
+export default function RootLayout({
+  children,
+}: {
   children: ReactNode;
-};
-export default function RootLayout({ children }: RootLayoutProps) {
+}) {
   return (
     <html lang="en">
       <body>{children}</body>
