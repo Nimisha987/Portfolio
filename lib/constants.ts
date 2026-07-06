@@ -159,7 +159,7 @@ export const PROJECTS = [
   {
     title: "Secure Multimodal Child Malnutrition Prediction using Early Fusion Learning",
     gradient: "linear-gradient(120deg, #1A1A2E, #6C63FF)",
-    tag: "Hackathon",
+    tag: "Research Project",
     desc: "Developed a multimodal AI model for child malnutrition prediction by combining medical tabular data with image embeddings extracted using MobileNetV2 through an Early Fusion approach. Implemented cryptographic techniques to secure sensitive patient data and trained a LightGBM classifier on fused features, achieving improved performance over a tabular-only baseline using ROC-AUC, F1-Score, and Accuracy.",
     stack: [" Python", "TensorFlow"," MobileNetV2","LightGBM", "Scikit-learn", "Pandas", "NumPy"," Cryptography","OpenCV", "PIL"],
     github: "https://github.com/Nimisha987/ChildMalnutrition.git",
