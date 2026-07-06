@@ -29,7 +29,15 @@ export default function Hero() {
         </p>
 
         <div className="np-fade" style={{ display: "flex", gap: 14, justifyContent: "center", animationDelay: "0.3s" }}>
-          <a href="#projects" className="np-btn-primary">View Projects →</a>
+          <a href="#projects" className="np-btn-outline">View Projects →</a>
+         <a
+  href="https://drive.google.com/file/d/1OFnTIpqVTAFVMn6GzMxfo_bQ8HubeffF/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="np-btn-primary"
+>
+  Resume ↗
+</a>
           <a href="#contact" className="np-btn-outline">Let's Connect</a>
         </div>
       </div>
